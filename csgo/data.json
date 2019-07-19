@@ -1,0 +1,48 @@
+{
+  "map":  [
+    {
+      "mapname": "Cache",
+      "nade": [
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+      ]
+    },
+    {
+      "mapname": "Dust II",
+      "nade": [
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+      ]
+    },
+    {
+      "mapname": "Inferno",
+      "nade": [
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+      ]
+    },
+    {
+      "mapname": "Mirage",
+      "nade": [
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["`A: T Roof to Jungle`","`B: T Spawn to CT`","`C: T Spawn to Stairs`","`D: T Roof to Danger/Triple Stack`","`E: T Roof to Under Balcony`","`F: CT to Ramp`","`G: Outside Apps to Van`","`H: Outside Apps to Bench`","`I: Van to Short`","`J: Van to Market Window`","`K: Van to Market`","`L: Back of B to Apps`","`M: T Spawn to Catwalk`","`N: T Roof to Window`","`O: T Spawn to Short`","`P: Top Mid to Connector`","`Q: Top Mid to Jungle`","`R: Window One-way`","`S: Connector One-way`"], "count": 19, "boundary": [6,12,17]},
+        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+      ]
+    }
+  ],
+  "emoji": {
+    "map": ["585933235691978760","585933319577927680","585933214082924558","585933255702741023"],
+		"nade": ["588163100612493314","588163127670079709","588163157286191105"],
+		"option": ["🇦", "🇧", "🇨", "🇩", "🇪", "🇫", "🇬", "🇭", "🇮", "🇯", "🇰", "🇱", "🇲", "🇳", "🇴", "🇵", "🇶", "🇷", "🇸", "🇹", "🇺", "🇻", "🇼", "🇽", "🇾", "🇿", "❌"]
+  },
+  "misc": {
+    "nadestring": ["Flash", "Smoke", "Molotov"],
+    "mapcount": 4,
+    "nadecount": 3,
+    "mapfilepath": ["cache","dust2","inferno","mirage"],
+    "nadefilepath": ["flash","smoke","molotov"]
+  }
+}
