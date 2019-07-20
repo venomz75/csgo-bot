@@ -1,10 +1,10 @@
 //bot variables
 const discord = require ('discord.js');
+const config = require("./config.js");
 const got = require ('got');
 const fs = require('fs');
-const token = "NTAwNzIxMjc3OTE3NDYyNTI5.DqPLjQ.JVHqcTJ1kkiN9SAiXdo03xwM97U";
+const token = config.token;
 var client = new discord.Client();
-
 var json = fs.readFileSync("./csgo/data.json");
 var data = JSON.parse(json);
 
