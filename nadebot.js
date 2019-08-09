@@ -31,7 +31,7 @@ client.on ("message", (message) => {
 	if (message.isMemberMentioned(client.user)) {
 		message.delete()
 		const embedOne = new discord.RichEmbed()
-			.addField("Pick a map!", "<:cache:586231137400127488>` - Cache`\n<:dust2:586231146409492501>` - Dust II`\n<:inferno:586231126599663638>` - Inferno`\n<:mirage:586231153774559232>` - Mirage`")
+			.addField("Pick a map!", "<:cache:"+data.emoji.map[0]+">` - Cache`\n<:dust2:"+data.emoji.map[1]+">` - Dust II`\n<:inferno:"+data.emoji.map[2]+">` - Inferno`\n<:mirage:"+data.emoji.map[3]+">` - Mirage`")
 
 		var userID = message.author.id;
 		var mapSelected = -1;
@@ -49,7 +49,7 @@ client.on ("message", (message) => {
 						reaction.message.delete();
 						mapSelected = i;
 						const embedTwo = new discord.RichEmbed()
-							.addField(data.map[mapSelected].mapname, "<:flash:588163100612493314>` - Flashes: "+data.map[mapSelected].nade[0].count+"`\n<:smoke:588163127670079709>` - Smokes: "+data.map[mapSelected].nade[1].count+"`\n<:molotov:588163157286191105>` - Molotovs: "+data.map[mapSelected].nade[2].count+"`")
+							.addField(data.map[mapSelected].mapname, ":boom:` - Flashes: "+data.map[mapSelected].nade[0].count+"`\n:cloud:` - Smokes: "+data.map[mapSelected].nade[1].count+"`\n:fire:` - Molotovs: "+data.map[mapSelected].nade[2].count+"`")
 
 						var nadeSelected = -1;
 						message.reply(embedTwo).then(async function (sentEmbed) {
@@ -62,7 +62,7 @@ client.on ("message", (message) => {
 							if (user.id === userID && nadeSelected === -1 && mapSelected != -1) {
 								for (i = 0; i < data.misc.nadecount; i++) {
 									if (reaction.emoji.name == data.emoji.option[26]) {reaction.message.delete(); nadeSelected = -2; return; mapSelected = -1;}
-									if (reaction.emoji.id == data.emoji.nade[i]) {
+									if (reaction.emoji.name == data.emoji.nade[i]) {
 										reaction.message.delete();
 										nadeSelected = i;
 										var a = "";
@@ -94,7 +94,6 @@ client.on ("message", (message) => {
 											.addField("B Site", b)
 											.addField("Middle", mid)
 											.addField("One-ways", oneWay)
-											.addField("Testing", mapSelected+" "+nadeSelected+" "+optionSelected+" "+userID+ " "+user.id)
 
 										var optionSelected = -1;
 										message.reply(embedThree).then(async function (sentEmbed) {

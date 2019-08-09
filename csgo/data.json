@@ -3,39 +3,39 @@
     {
       "mapname": "Cache",
       "nade": [
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]},
+        {"string": ["`A: Long to Quad`","`B: Long to Forklift`","`C: Long to Default`","`D: Long to Catwalk`","`E: Squeaky to Forklift`","`F: Squeaky to Quad`","`G: Van to A Main`","`H: Quad to A Main`","`I: Fence to A Main`","`J: Toxic to Tree`","`K: Toxic to Headshot`","`L: B Main to Checkers`","`M: Heaven to B Main (full)`","`N: Heaven to B Main (partial)`","`O: T Spawn to Connector`","`P: Outside A to Connector`","`Q: Truck to Connector`","`R: Van to Vent`","`S: Connector to Boost`"], "count": 19, "boundary": [9,14,18]},
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]}
       ]
     },
     {
       "mapname": "Dust II",
       "nade": [
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]}
       ]
     },
     {
       "mapname": "Inferno",
       "nade": [
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]}
       ]
     },
     {
       "mapname": "Mirage",
       "nade": [
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]},
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]},
         {"string": ["`A: T Roof to Jungle`","`B: T Spawn to CT`","`C: T Spawn to Stairs`","`D: T Roof to Danger/Triple Stack`","`E: T Roof to Under Balcony`","`F: CT to Ramp`","`G: Outside Apps to Van`","`H: Outside Apps to Bench`","`I: Van to Short`","`J: Van to Market Window`","`K: Van to Market`","`L: Back of B to Apps`","`M: T Spawn to Catwalk`","`N: T Roof to Window`","`O: T Spawn to Short`","`P: Top Mid to Connector`","`Q: Top Mid to Jungle`","`R: Window One-way`","`S: Connector One-way`"], "count": 19, "boundary": [6,12,17]},
-        {"string": ["blank"], "count": 2, "boundary": [1,0,0]}
+        {"string": ["blank"], "count": 0, "boundary": [1,0,0]}
       ]
     }
   ],
   "emoji": {
-    "map": ["585933235691978760","585933319577927680","585933214082924558","585933255702741023"],
-		"nade": ["588163100612493314","588163127670079709","588163157286191105"],
+    "map": ["605437644339412995","605437647607037953","605437644146475009","605437647648718893"],
+		"nade": ["💥","☁","🔥"],
 		"option": ["🇦", "🇧", "🇨", "🇩", "🇪", "🇫", "🇬", "🇭", "🇮", "🇯", "🇰", "🇱", "🇲", "🇳", "🇴", "🇵", "🇶", "🇷", "🇸", "🇹", "🇺", "🇻", "🇼", "🇽", "🇾", "🇿", "❌"]
   },
   "misc": {
